@@ -13,7 +13,7 @@ public class Customers {
 		// TODO Auto-generated method stub
 		Customers cone = new Customers(1,"Raj","Mumbai");
 		Customers ctwo = new Customers(2,"Rahul","Jalgaon");
-		Customers cthree = new Customers(3,"Sahil","Hyderabad");
+		Customers cthree = new Customers(3,"Sohail","Hyderabad");
 	}
 
 }
