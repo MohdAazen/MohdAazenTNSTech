@@ -2,7 +2,7 @@
 Create a default constructor in the class Student that prints a message “Student object is created” when the program is run.
  */
 
-package com.company.programsAssignmentDay2;
+package com.company.programsAssignment2;
 
 public class Student {
 
