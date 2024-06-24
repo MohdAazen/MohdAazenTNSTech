@@ -11,23 +11,34 @@ public class Student extends Citizen {
 		
 	}
 
-	public Student(int rollNo, String collegeName) {
 
-		super(name, aadhaarno, phno, address);
+	@Override
+	public String toString() {
+		return "Student [rollNo=" + rollNo + ", collegeName=" + collegeName + ", name=" + name + ", aadhaarno="
+				+ aadhaarno + ", Phno=" + Phno + ", address=" + address + "]";
+	}
+
+
+	public Student(String name, long aadhaarno,  String address,long phno,int rollNo,String collegeName) {
+		super( name,  aadhaarno, address,  phno);
 		this.rollNo = rollNo;
 		this.collegeName = collegeName;
 	}
 
-	public Student(String name, long aadhaarno, long phno, String address) {
-		
+	public int getRollNo() {
+		return rollNo;
 	}
 
+	public void setRollNo(int rollNo) {
+		this.rollNo = rollNo;
+	}
 
+	public String getCollegeName() {
+		return collegeName;
+	}
 
-
-	public static void main(String[] args) {
-		
-
+	public void setCollegeName(String collegeName) {
+		this.collegeName = collegeName;
 	}
 
 }

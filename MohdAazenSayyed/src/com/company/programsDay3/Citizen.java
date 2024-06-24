@@ -2,12 +2,17 @@ package com.company.programsDay3;
 
 public class Citizen {
 
+	protected String name;
+	protected long aadhaarno;
+	protected long Phno;
+	protected String address;
+	
 	public Citizen() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Citizen(String name, long aadhaarno, long phno, String address) {
+	public Citizen(String name, long aadhaarno, String address, long phno) {
 		
 		this.name = name;
 		this.aadhaarno = aadhaarno;
@@ -47,11 +52,6 @@ public class Citizen {
 		this.address = address;
 	}
 
-	protected String name;
-	protected long aadhaarno;
-	protected long Phno;
-	protected String address;
-	
 	@Override
 	public String toString() {
 		return "Citizen [name=" + name + ", aadhaarno=" + aadhaarno + ", Phno=" + Phno + ", address=" + address + "]";
