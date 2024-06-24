@@ -12,40 +12,20 @@ public class MultilevelInheritance {
 		countryOne.setNumber_of_states(28);
 		countryOne.setCurrency("Rupee");
 		
-		State s1 = new State("Maharashtra", 10,40,"Hindi",40,"Sindhi,Marathi,Punjabi,Kannada,Gujarati", "Rice,Wheat,Bajra,Toor");
+		State s1 = new State("Maharashtra", 4,47,"Marathi",15,"Malvani,Sangmeshwari,Khandeshi,Konkani,Warli,Vadvali,Samavedi", "Mangoes,Bananas,Grapes,Oranges,Rice,Wheat,Bajra");
 		s1.setCapital("Mumbai");
 		s1.setCities(30);
 		
-		State s2 = new State("Maharashtra", 10,40,"Hindi",40,"Sindhi,Marathi,Punjabi,Kannada,Gujarati", "Rice,Wheat,Bajra,Toor");
+		State s2 = new State("Karnataka", 2,46,"Kannada",8,"Tulu,Coorgi,Konkani,Marathi,Tamil,Deccani Urdu,Marathi", "Rice,Maize,Sugarcane,Cardomom,Chillies,Coffee,Cashews");
 		s2.setCapital("Mumbai");
 		s2.setCities(30);
 		
-		
-		Continent continentTwo = new Continent("Asia",50,-20);
-		continentTwo.setNumber_of_countries(5);
-		
-		Countries countryTwo = new Countries("India",48,2,"Hindi",140);
-		countryTwo.setNumber_of_states(28);
-		countryTwo.setCurrency("Rupee");
-				State sc1 = new State("Maharashtra", 10,40,"Hindi",40,"Sindhi,Marathi,Punjabi,Kannada,Gujarati", "Rice,Wheat,Bajra,Toor");
-		
-		sc1.setCapital("Mumbai");
-		sc1.setCities(30);
-		
-		State sc2 = new State("Maharashtra", 10,40,"Hindi",40,"Sindhi,Marathi,Punjabi,Kannada,Gujarati", "Rice,Wheat,Bajra,Toor");
-		sc2.setCapital("Mumbai");
-		sc2.setCities(30);
-		
-		State sc3 = new State("Maharashtra", 10,40,"Hindi",40,"Sindhi,Marathi,Punjabi,Kannada,Gujarati", "Rice,Wheat,Bajra,Toor");
-		sc3.setCapital("Mumbai");
-		sc3.setCities(30);
-		
+	
 		System.out.println(continentOne.toString());
 		System.out.println();
-		System.out.println(countryTwo.toString());
+		System.out.println(countryOne.toString());
 		System.out.println();
-		System.out.println(sc3.toString());
-		
+		System.out.println(s2.toString());
 		
 		
 	}
