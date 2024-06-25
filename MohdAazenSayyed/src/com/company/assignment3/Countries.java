@@ -28,12 +28,10 @@ public class Countries extends Continent
 	}
 	@Override
 	public String toString() {
-		return "Countries [ Name=" + name + ", \nHigh Temp Recorded=" + highTempRecorded + ", \nLow Temp Recorded=" + lowTempRecorded
-				+ ", \nNational Language=" + language
-				+ ", \nPopulation(in cr)=" + population + ",\nNumber_of_states=" + getNumber_of_states() + ", \nCurrency()="
-				+ getCurrency() + "]";
+		return "Countries [number_of_states=" + number_of_states + ", currency=" + currency + ", language=" + language
+				+ ", population=" + population + ", name=" + name + ", highTempRecorded=" + highTempRecorded
+				+ ", lowTempRecorded=" + lowTempRecorded + "]";
 	}
-	
 		
 	
 	

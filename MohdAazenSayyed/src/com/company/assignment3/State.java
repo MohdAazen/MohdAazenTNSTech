@@ -34,11 +34,12 @@ public class State extends Countries {
 
 	@Override
 	public String toString() {
-		return "State [Name=" + name +", \nLanguage=" + language + ", \nOther Languages Used=" + otherLanguagesUsed
-				+ ", \ncropsProduce=" + cropsProduce +  ", \npopulation=" + population + ", \nhighTempRecorded=" + highTempRecorded + ", \nlowTempRecorded=" + lowTempRecorded
-				+ ", \nNo. of Cities()=" + getCities() + ", \nCapital()=" + getCapital() + "]";
+		return "State [cities=" + cities + ", capital=" + capital + ", otherLanguagesUsed=" + otherLanguagesUsed
+				+ ", cropsProduce=" + cropsProduce + ", language=" + language + ", population=" + population + ", name="
+				+ name + ", highTempRecorded=" + highTempRecorded + ", lowTempRecorded=" + lowTempRecorded + "]";
 	}
 
+	
 	
 	
 }

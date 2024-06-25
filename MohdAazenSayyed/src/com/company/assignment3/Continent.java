@@ -24,8 +24,8 @@ public class Continent {
 
 	@Override
 	public String toString() {
-		return "Continent [Name=" + name + ",\nNumber of countries=" + number_of_countries + ",\nHigh Temperature Recorded="
-				+ highTempRecorded + ",\nLow Temperature Recorded=" + lowTempRecorded + "]";
+		return "Continent [number_of_countries=" + number_of_countries + ", name=" + name + ", highTempRecorded="
+				+ highTempRecorded + ", lowTempRecorded=" + lowTempRecorded + "]";
 	}
 	
 }
