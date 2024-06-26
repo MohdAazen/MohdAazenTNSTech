@@ -6,19 +6,19 @@ import com.MohdAazen.assignment1.employees.Manager;
 
 public class EmployeeUtilities {
 
-	public static void getPrintedInfoMan(Manager emp)
+	public static void getPrintedInfoMan(Manager m)
 	{
-		System.out.println("Name : "+emp.getName());
-		System.out.println("Salary : "+emp.getSalary());
-		System.out.println("Employee Id : "+emp.getEmployeeId());
-		System.out.println("Team size : "+emp.getTeam_size());	
+		System.out.println("Name : "+m.getName());
+		System.out.println("Salary : "+m.getSalary());
+		System.out.println("Employee Id : "+m.getEmployeeId());
+		System.out.println("Team size : "+m.getTeam_size());	
 	}	
-	public static void getPrintedInfoDev(Developer emp)
+	public static void getPrintedInfoDev(Developer d)
 	{
-		System.out.println("Name : "+emp.getName());
-		System.out.println("Salary : "+emp.getSalary());
-		System.out.println("Employee Id : "+emp.getEmployeeId());
-		System.out.println("Team size : "+emp.getProgLang());
+		System.out.println("Name : "+d.getName());
+		System.out.println("Salary : "+d.getSalary());
+		System.out.println("Employee Id : "+d.getEmployeeId());
+		System.out.println("Team size : "+d.getProgLang());
 	}
 }
 
