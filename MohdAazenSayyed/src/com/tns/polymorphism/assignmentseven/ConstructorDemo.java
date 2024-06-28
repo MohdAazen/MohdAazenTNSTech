@@ -1,4 +1,4 @@
-package com.tns.polymorphism;
+package com.tns.polymorphism.assignmentseven;
 
 public class ConstructorDemo {
 public static void main(String[] args) {
